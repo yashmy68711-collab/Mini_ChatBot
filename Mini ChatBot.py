@@ -18,6 +18,7 @@ while True:
 
     elif user == "bye":
         print("Bot: Goodbye!")
+         print("Total messages:", message_count)
         break
 
     else:
