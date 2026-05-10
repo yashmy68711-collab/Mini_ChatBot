@@ -1,5 +1,8 @@
+import random
 print("Mini ChatBot")
 print("Type 'bye' to exit\n")
+
+message_count = 0
 
 while True:
     user = input("You: ").lower().strip()
