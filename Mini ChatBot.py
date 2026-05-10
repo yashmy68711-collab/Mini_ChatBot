@@ -7,14 +7,20 @@ message_count = 0
 while True:
     user = input("You: ").lower().strip()
 
+    message_count += 1
+
     if user == "hello" or user == "hi":
-        print("Bot: Hello!")
+        greetings = ["Hello!", "Hi there!", "Hey!", "Nice to meet you!"]
+        print("Bot:", random.choice(greetings))
 
     elif user == "how are you":
         print("Bot: I'm fine!")
 
     elif user == "what is your name":
         print("Bot: I'm a Python chatbot.")
+
+    elif "thank you" in user:
+        print("Bot: You're welcome!")
 
     elif user == "help":
         print("Bot: Try saying hello or ask my name.")
