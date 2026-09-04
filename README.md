@@ -1,4 +1,4 @@
-# Mini Python ChatBot
+e# Mini Python ChatBot
 
 ## About
 
@@ -22,8 +22,4 @@ The chatbot responds to basic user messages using conditions and keyword matchin
 2. Type messages to chat with the bot
 3. Type `bye` to exit
 
-## Future Improvements
 
-* Add more responses
-* Add GUI version
-* Add AI/NLP features
