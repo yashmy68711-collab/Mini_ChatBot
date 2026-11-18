@@ -1,4 +1,4 @@
-import random
+
 print("Mini ChatBot")
 print("Type 'bye' to exit\n")
 
